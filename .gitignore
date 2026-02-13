@@ -1,3 +1,3 @@
 venv/
-data/*.csv
+dataset-olist/*.csv
 .ipynb_checkpoints/
