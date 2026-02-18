@@ -1,3 +1,61 @@
-venv/
-dataset-olist/*.csv
+# ==================== DADOS ====================
+# Não subir datasets pesados
+*.csv
+dataset-olist/
+dataframe_clean/
+timestamped_df/
+
+# ==================== JUPYTER ====================
+# Cache e arquivos temporários do Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==================== PYTHON ====================
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================== AMBIENTE VIRTUAL ====================
+venv/
+env/
+ENV/
+.venv
+
+# ==================== IDE ====================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# ==================== SISTEMA ====================
+
+Thumbs.db
+desktop.ini
+
+# ==================== OUTROS ====================
+*.log
+.env
+.swp
+.swo
+*~
